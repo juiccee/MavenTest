@@ -7,7 +7,7 @@ public class UserLibraryInClassPathAppMain {
         String line = "  This is a     字符串 test   ";
         Iterable<String> words = Splitter.on(' ').trimResults().omitEmptyStrings().split(line);
         for (String word : words) {
-            System.out.println(word);
+            System.out.println(word+"hello");
         }
     }
 }
